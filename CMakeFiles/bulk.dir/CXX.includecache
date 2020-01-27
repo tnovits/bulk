@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/tnovits/bulk/CommandPackage.h
+ISubscriber.h
+/home/travis/build/tnovits/bulk/ISubscriber.h
+memory
+-
+
+/home/travis/build/tnovits/bulk/CoutSubscriber.h
+ISubscriber.h
+/home/travis/build/tnovits/bulk/ISubscriber.h
+iostream
+-
+tuple
+-
+
+/home/travis/build/tnovits/bulk/FileSubscriber.h
+ISubscriber.h
+/home/travis/build/tnovits/bulk/ISubscriber.h
+fstream
+-
+
+/home/travis/build/tnovits/bulk/ISubscriber.h
+ctime
+-
+vector
+-
+string
+-
+
+/home/travis/build/tnovits/bulk/main.cpp
+FileSubscriber.h
+/home/travis/build/tnovits/bulk/FileSubscriber.h
+CoutSubscriber.h
+/home/travis/build/tnovits/bulk/CoutSubscriber.h
+CommandPackage.h
+/home/travis/build/tnovits/bulk/CommandPackage.h
+
