@@ -4,12 +4,19 @@
 #include "CommandPackage.h"
 
 
-int main()
+int main(int argc, char *argv[])
 {
     auto blockCommandCount = 0;
     std::string command;
 
-    std::cin >> blockCommandCount;
+    if( argc > 1 )
+    {
+        blockCommandCount =  std::atoi(argv[1]);
+    }
+    else
+    {
+        blockCommandCount = 5;
+    }
 
     auto commandPackage = std::make_shared<CommandPackage>(blockCommandCount);
 
@@ -19,7 +26,6 @@ int main()
     commandPackage->addSubscriber(fileSubscriber);
     commandPackage->addSubscriber(coutSubscriber);
 
-    std::getline(std::cin, command);
     while( std::getline(std::cin, command) )
     {
         commandPackage->addCommand(command);
