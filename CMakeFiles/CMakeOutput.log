@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/travis/build/tnovits/b
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1659b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1659b.dir/build.make CMakeFiles/cmTC_1659b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9ebe6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ebe6.dir/build.make CMakeFiles/cmTC_9ebe6.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1659b.dir/testCCompiler.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_1659b.dir/testCCompiler.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_1659b
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1659b.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_1659b.dir/testCCompiler.c.o  -o cmTC_1659b 
+Building C object CMakeFiles/cmTC_9ebe6.dir/testCCompiler.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_9ebe6.dir/testCCompiler.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9ebe6
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebe6.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_9ebe6.dir/testCCompiler.c.o  -o cmTC_9ebe6 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b2ac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b2ac.dir/build.make CMakeFiles/cmTC_3b2ac.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0c0ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c0ef.dir/build.make CMakeFiles/cmTC_0c0ef.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o
-/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3b2ac
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b2ac.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang     -v CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o  -o cmTC_3b2ac 
+Building C object CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o
+/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0c0ef
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c0ef.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang     -v CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o  -o cmTC_0c0ef 
 clang version 7.0.0 (tags/RELEASE_700/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -65,7 +65,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b2ac /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0c0ef /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -73,14 +73,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3b2ac/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3b2ac.dir/build.make CMakeFiles/cmTC_3b2ac.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0c0ef/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0c0ef.dir/build.make CMakeFiles/cmTC_0c0ef.dir/build]
   ignore line: [make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3b2ac]
-  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b2ac.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang     -v CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o  -o cmTC_3b2ac ]
+  ignore line: [Building C object CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang    -o CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0c0ef]
+  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c0ef.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang     -v CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o  -o cmTC_0c0ef ]
   ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3b2ac /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0c0ef /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3b2ac] ==> ignore
+    arg [cmTC_0c0ef] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/clang-7.0.0/bin/../lib] ==> dir [/usr/local/clang-7.0.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_3b2ac.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0c0ef.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -152,14 +152,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88c90/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88c90.dir/build.make CMakeFiles/cmTC_88c90.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e960e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e960e.dir/build.make CMakeFiles/cmTC_e960e.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88c90.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c11 -o CMakeFiles/cmTC_88c90.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
-Linking C executable cmTC_88c90
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c90.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_88c90.dir/feature_tests.c.o  -o cmTC_88c90 
+Building C object CMakeFiles/cmTC_e960e.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c11 -o CMakeFiles/cmTC_e960e.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e960e
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e960e.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_e960e.dir/feature_tests.c.o  -o cmTC_e960e 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -172,14 +172,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52b88/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52b88.dir/build.make CMakeFiles/cmTC_52b88.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3404c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3404c.dir/build.make CMakeFiles/cmTC_3404c.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_52b88.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c99 -o CMakeFiles/cmTC_52b88.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
-Linking C executable cmTC_52b88
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b88.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_52b88.dir/feature_tests.c.o  -o cmTC_52b88 
+Building C object CMakeFiles/cmTC_3404c.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c99 -o CMakeFiles/cmTC_3404c.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3404c
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3404c.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_3404c.dir/feature_tests.c.o  -o cmTC_3404c 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -192,14 +192,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44652/fast"
-/usr/bin/make -f CMakeFiles/cmTC_44652.dir/build.make CMakeFiles/cmTC_44652.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2f525/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f525.dir/build.make CMakeFiles/cmTC_2f525.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_44652.dir/feature_tests.c.o
-/usr/local/clang-7.0.0/bin/clang   -std=c90 -o CMakeFiles/cmTC_44652.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
-Linking C executable cmTC_44652
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44652.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_44652.dir/feature_tests.c.o  -o cmTC_44652 
+Building C object CMakeFiles/cmTC_2f525.dir/feature_tests.c.o
+/usr/local/clang-7.0.0/bin/clang   -std=c90 -o CMakeFiles/cmTC_2f525.dir/feature_tests.c.o   -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2f525
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f525.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang      CMakeFiles/cmTC_2f525.dir/feature_tests.c.o  -o cmTC_2f525 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -210,28 +210,28 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5b94a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5b94a.dir/build.make CMakeFiles/cmTC_5b94a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_71bb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71bb0.dir/build.make CMakeFiles/cmTC_71bb0.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5b94a.dir/testCXXCompiler.cxx.o
-/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_5b94a.dir/testCXXCompiler.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_5b94a
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b94a.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_5b94a.dir/testCXXCompiler.cxx.o  -o cmTC_5b94a 
+Building CXX object CMakeFiles/cmTC_71bb0.dir/testCXXCompiler.cxx.o
+/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_71bb0.dir/testCXXCompiler.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_71bb0
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71bb0.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_71bb0.dir/testCXXCompiler.cxx.o  -o cmTC_71bb0 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1c1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1c1b.dir/build.make CMakeFiles/cmTC_b1c1b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_70284/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70284.dir/build.make CMakeFiles/cmTC_70284.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b1c1b
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1c1b.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++      -v CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1c1b 
+Building CXX object CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_70284
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70284.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++      -v CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70284 
 clang version 7.0.0 (tags/RELEASE_700/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -247,7 +247,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b1c1b /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_70284 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -255,14 +255,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b1c1b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b1c1b.dir/build.make CMakeFiles/cmTC_b1c1b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_70284/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70284.dir/build.make CMakeFiles/cmTC_70284.dir/build]
   ignore line: [make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b1c1b]
-  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1c1b.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/clang-7.0.0/bin/clang++      -v CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1c1b ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang++     -o CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake-3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_70284]
+  ignore line: [/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70284.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/clang-7.0.0/bin/clang++      -v CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70284 ]
   ignore line: [clang version 7.0.0 (tags/RELEASE_700/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -280,7 +280,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b1c1b /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_70284 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/local/clang-7.0.0/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-zrelro] ==> ignore
     arg [--hash-style=gnu] ==> ignore
@@ -290,7 +290,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b1c1b] ==> ignore
+    arg [cmTC_70284] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -303,7 +303,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/clang-7.0.0/bin/../lib] ==> dir [/usr/local/clang-7.0.0/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_b1c1b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_70284.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -332,14 +332,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae9f1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae9f1.dir/build.make CMakeFiles/cmTC_ae9f1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c6b7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6b7c.dir/build.make CMakeFiles/cmTC_c6b7c.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae9f1.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_ae9f1.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ae9f1
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae9f1.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_ae9f1.dir/feature_tests.cxx.o  -o cmTC_ae9f1 
+Building CXX object CMakeFiles/cmTC_c6b7c.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++2a -o CMakeFiles/cmTC_c6b7c.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6b7c
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b7c.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_c6b7c.dir/feature_tests.cxx.o  -o cmTC_c6b7c 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -405,14 +405,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53986/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53986.dir/build.make CMakeFiles/cmTC_53986.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a5fa1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5fa1.dir/build.make CMakeFiles/cmTC_a5fa1.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53986.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_53986.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_53986
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53986.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_53986.dir/feature_tests.cxx.o  -o cmTC_53986 
+Building CXX object CMakeFiles/cmTC_a5fa1.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++17 -o CMakeFiles/cmTC_a5fa1.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a5fa1
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5fa1.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_a5fa1.dir/feature_tests.cxx.o  -o cmTC_a5fa1 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -478,14 +478,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4309/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4309.dir/build.make CMakeFiles/cmTC_c4309.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de53a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de53a.dir/build.make CMakeFiles/cmTC_de53a.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c4309.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_c4309.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c4309
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4309.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_c4309.dir/feature_tests.cxx.o  -o cmTC_c4309 
+Building CXX object CMakeFiles/cmTC_de53a.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++14 -o CMakeFiles/cmTC_de53a.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_de53a
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de53a.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_de53a.dir/feature_tests.cxx.o  -o cmTC_de53a 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -551,14 +551,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b2b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b2b4.dir/build.make CMakeFiles/cmTC_9b2b4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ea3ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea3ee.dir/build.make CMakeFiles/cmTC_ea3ee.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9b2b4.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_9b2b4.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9b2b4
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b2b4.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_9b2b4.dir/feature_tests.cxx.o  -o cmTC_9b2b4 
+Building CXX object CMakeFiles/cmTC_ea3ee.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++11 -o CMakeFiles/cmTC_ea3ee.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ea3ee
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea3ee.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_ea3ee.dir/feature_tests.cxx.o  -o cmTC_ea3ee 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
@@ -624,14 +624,14 @@ make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a6ef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a6ef.dir/build.make CMakeFiles/cmTC_1a6ef.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dbb8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbb8e.dir/build.make CMakeFiles/cmTC_dbb8e.dir/build
 make[1]: Entering directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a6ef.dir/feature_tests.cxx.o
-/usr/local/clang-7.0.0/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_1a6ef.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1a6ef
-/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a6ef.dir/link.txt --verbose=1
-/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_1a6ef.dir/feature_tests.cxx.o  -o cmTC_1a6ef 
+Building CXX object CMakeFiles/cmTC_dbb8e.dir/feature_tests.cxx.o
+/usr/local/clang-7.0.0/bin/clang++    -std=c++98 -o CMakeFiles/cmTC_dbb8e.dir/feature_tests.cxx.o -c /home/travis/build/tnovits/bulk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dbb8e
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbb8e.dir/link.txt --verbose=1
+/usr/local/clang-7.0.0/bin/clang++       CMakeFiles/cmTC_dbb8e.dir/feature_tests.cxx.o  -o cmTC_dbb8e 
 make[1]: Leaving directory '/home/travis/build/tnovits/bulk/CMakeFiles/CMakeTmp'
 
 
